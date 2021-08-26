@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <VoxelMaterials>
+        <!-- Copper_01 -->
+        <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+            <Id>
+                <TypeId>VoxelMaterialDefinition</TypeId>
+                <SubtypeId>Copper_01</SubtypeId>
+            </Id>
+            <MaterialTypeName>Rock</MaterialTypeName>
+            <MinedOre>Copper</MinedOre>
+            <MinedOreRatio>1</MinedOreRatio>
+            <CanBeHarvested>true</CanBeHarvested>
+            <IsRare>true</IsRare>
+            <AsteroidGeneratorSpawnProbabilityMultiplier>3</AsteroidGeneratorSpawnProbabilityMultiplier>
+            <VoxelHandPreview>Textures\Voxels\Copper_01_Thumbnail.dds</VoxelHandPreview>
+
+            <ColorMetalXZnY>Textures\Voxels\Copper_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+            <NormalGlossXZnY>Textures\Voxels\Copper_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+            <ExtXZnY>Textures\Voxels\Copper_01_ForAxisXZ_add.dds</ExtXZnY>
+
+            <SimpleTilingSetup>
+                <InitialScale>3</InitialScale>
+                <ScaleMultiplier>5</ScaleMultiplier>
+                <InitialDistance>5</InitialDistance>
+                <DistanceMultiplier>4</DistanceMultiplier>
+                <Far1Distance>14</Far1Distance>
+                <Far1Scale>12</Far1Scale>
+                <Far2Distance>150</Far2Distance>
+                <Far2Scale>80</Far2Scale>
+            </SimpleTilingSetup>
+            <InitialScale>1.5</InitialScale>
+            <ScaleMultiplier>5</ScaleMultiplier>
+            <InitialDistance>5</InitialDistance>
+            <DistanceMultiplier>4</DistanceMultiplier>
+            <TilingScale>24</TilingScale>
+            <Far1Distance>14</Far1Distance>
+            <Far1Scale>12</Far1Scale>
+
+            <ColorMetalXZnYFar2>Textures\Voxels\Copper_01_ForAxisXZ_distance_cm.dds</ColorMetalXZnYFar2>
+            <NormalGlossXZnYFar2>Textures\Voxels\Copper_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar2>
+            <ExtXZnYFar2>Textures\Voxels\Copper_01_ForAxisXZ_distance_add.dds</ExtXZnYFar2>
+
+            <Far2Distance>150</Far2Distance>
+            <Far2Scale>80</Far2Scale>
+            <LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+        </VoxelMaterial>
+        <!-- Titanium_01 -->
+        <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+            <Id>
+                <TypeId>VoxelMaterialDefinition</TypeId>
+                <SubtypeId>Titanium_01</SubtypeId>
+            </Id>
+            <MaterialTypeName>Rock</MaterialTypeName>
+            <MinedOre>Titanium</MinedOre>
+            <MinedOreRatio>1</MinedOreRatio>
+            <CanBeHarvested>true</CanBeHarvested>
+            <IsRare>true</IsRare>
+            <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
+            <VoxelHandPreview>Textures\Voxels\Titanium_01_Thumbnail.dds</VoxelHandPreview>
+            <ColorMetalXZnY>Textures\Voxels\Titanium_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+            <NormalGlossXZnY>Textures\Voxels\Titanium_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+            <ExtXZnY>Textures\Voxels\Titanium_01_ForAxisXZ_add.dds</ExtXZnY>
+            <SimpleTilingSetup>
+                <InitialScale>3</InitialScale>
+                <ScaleMultiplier>6</ScaleMultiplier>
+                <InitialDistance>7</InitialDistance>
+                <DistanceMultiplier>7</DistanceMultiplier>
+                <Far1Distance>12</Far1Distance>
+                <Far1Scale>14</Far1Scale>
+                <Far2Distance>85</Far2Distance>
+                <Far2Scale>24</Far2Scale>
+            </SimpleTilingSetup>
+            <InitialScale>1.5</InitialScale>
+            <ScaleMultiplier>5</ScaleMultiplier>
+            <InitialDistance>5</InitialDistance>
+            <DistanceMultiplier>4</DistanceMultiplier>
+            <TilingScale>24</TilingScale>
+            <ColorMetalXZnYFar1>Textures\Voxels\Titanium_01_ForAxisXZ_distance_cm.dds</ColorMetalXZnYFar1>
+            <NormalGlossXZnYFar1>Textures\Voxels\Titanium_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+            <ExtXZnYFar1>Textures\Voxels\Titanium_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+            <Far1Distance>12</Far1Distance>
+            <Far1Scale>14</Far1Scale>
+            <Far2Distance>85</Far2Distance>
+            <Far2Scale>24</Far2Scale>
+            <LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+        </VoxelMaterial>
+        <!-- Tungsten_01 -->
+        <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+            <Id>
+                <TypeId>VoxelMaterialDefinition</TypeId>
+                <SubtypeId>Tungsten_01</SubtypeId>
+            </Id>
+            <MaterialTypeName>Rock</MaterialTypeName>
+            <MinedOre>Tungsten</MinedOre>
+            <MinedOreRatio>1</MinedOreRatio>
+            <CanBeHarvested>true</CanBeHarvested>
+            <IsRare>true</IsRare>
+            <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
+            <VoxelHandPreview>Textures\Voxels\Tungsten_01_Thumbnail.dds</VoxelHandPreview>
+            <ColorMetalXZnY>Textures\Voxels\Tungsten_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+            <NormalGlossXZnY>Textures\Voxels\Tungsten_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+            <ExtXZnY>Textures\Voxels\Tungsten_01_ForAxisXZ_add.dds</ExtXZnY>
+            <SimpleTilingSetup>
+                <InitialScale>3</InitialScale>
+                <ScaleMultiplier>6</ScaleMultiplier>
+                <InitialDistance>7</InitialDistance>
+                <DistanceMultiplier>7</DistanceMultiplier>
+                <Far1Distance>12</Far1Distance>
+                <Far1Scale>14</Far1Scale>
+                <Far2Distance>85</Far2Distance>
+                <Far2Scale>24</Far2Scale>
+            </SimpleTilingSetup>
+            <InitialScale>1.5</InitialScale>
+            <ScaleMultiplier>5</ScaleMultiplier>
+            <InitialDistance>5</InitialDistance>
+            <DistanceMultiplier>4</DistanceMultiplier>
+            <TilingScale>24</TilingScale>
+            <ColorMetalXZnYFar1>Textures\Voxels\Tungsten_01_ForAxisXZ_distance_cm.dds</ColorMetalXZnYFar1>
+            <NormalGlossXZnYFar1>Textures\Voxels\Tungsten_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+            <ExtXZnYFar1>Textures\Voxels\Tungsten_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+            <Far1Distance>12</Far1Distance>
+            <Far1Scale>14</Far1Scale>
+            <Far2Distance>85</Far2Distance>
+            <Far2Scale>24</Far2Scale>
+            <LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+        </VoxelMaterial>
+    </VoxelMaterials>
+</Definitions>

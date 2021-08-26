@@ -1,0 +1,6 @@
+# Files and Patterns listed here are ignored by the .git system
+
+bin/**
+obj/**
+
+*.psd

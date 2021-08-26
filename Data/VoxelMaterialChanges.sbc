@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <!-- ==== Planets ==== -->
+    <!-- Earth -->
+    <Definition xsi:type="MyObjectBuilder_VoxelMaterialModifierDefinition">
+        <Id Type="MyObjectBuilder_VoxelMaterialModifierDefinition" Subtype="EarthLike" />
+        <Options>
+            <Option Chance="0.40">
+                <!-- No change -->
+            </Option>
+            <!--
+						<Option Chance="0.25">
+						        <Change From="Iron_01" To="Nickel_01" />
+						        <Change From="Iron_02" To="Nickel_01" />
+						</Option>
+						-->
+        </Options>
+    </Definition>
+    <!-- Mars -->
+    <Definition xsi:type="MyObjectBuilder_VoxelMaterialModifierDefinition">
+        <Id Type="MyObjectBuilder_VoxelMaterialModifierDefinition" Subtype="Mars" />
+        <Options>
+            <Option Chance="0.40">
+                <!-- No change -->
+            </Option>
+        </Options>
+    </Definition>
+    <!-- Pertam -->
+    <Definition xsi:type="MyObjectBuilder_VoxelMaterialModifierDefinition">
+        <Id Type="MyObjectBuilder_VoxelMaterialModifierDefinition" Subtype="Pertam" />
+        <Options>
+            <Option Chance="0.40">
+                <!-- No change -->
+            </Option>
+        </Options>
+    </Definition>
+    <!-- ==== Moons ==== -->
+    <!-- Moon -->
+    <Definition xsi:type="MyObjectBuilder_VoxelMaterialModifierDefinition">
+        <Id Type="MyObjectBuilder_VoxelMaterialModifierDefinition" Subtype="Moon" />
+        <Options>
+            <Option Chance="0.40">
+                <!-- No change -->
+            </Option>
+        </Options>
+    </Definition>
+    <!-- Titan -->
+    <Definition xsi:type="MyObjectBuilder_VoxelMaterialModifierDefinition">
+        <Id Type="MyObjectBuilder_VoxelMaterialModifierDefinition" Subtype="Titan" />
+        <Options>
+            <Option Chance="0.40">
+                <!-- No change -->
+            </Option>
+        </Options>
+    </Definition>
+    <!-- Triton -->
+    <Definition xsi:type="MyObjectBuilder_VoxelMaterialModifierDefinition">
+        <Id Type="MyObjectBuilder_VoxelMaterialModifierDefinition" Subtype="Triton" />
+        <Options>
+            <Option Chance="0.40">
+                <!-- No change -->
+            </Option>
+        </Options>
+    </Definition>
+</Definitions>

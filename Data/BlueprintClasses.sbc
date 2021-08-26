@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlueprintClassEntries>
+        <Entry Class="Ingots" BlueprintSubtypeId="CopperOreToIngot" />
+        <Entry Class="Ingots" BlueprintSubtypeId="TitaniumOreToIngot" />
+        <Entry Class="Ingots" BlueprintSubtypeId="TungstenOreToIngot" />
+        <Entry Class="CommonMetals" BlueprintSubtypeId="CopperOreToIngot" />
+		<Entry Class="Components" BlueprintSubtypeId="TitaniumPlate" />
+        <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeBlockTitaniumArmorBlock" />
+        <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeBlockTitaniumArmorCorner" />
+        <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeBlockTitaniumArmorCornerInv" />
+        <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeBlockTitaniumArmorSlope" />
+        <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallBlockTitaniumArmorBlock" />
+        <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallBlockTitaniumArmorCorner" />
+        <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallBlockTitaniumArmorCornerInv" />
+        <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallBlockTitaniumArmorSlope" />
+    </BlueprintClassEntries>
+</Definitions>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Factions>
+        <!-- 20201/08/20 - Gate: Just because I could.. -->
+        <Faction Tag="KLNG" Founder="Followers of KLaNG">
+            <Id>
+                <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+                <SubtypeId>KlangFollowers</SubtypeId>
+            </Id>
+            <DisplayName>The Followers of KLaNG</DisplayName>
+            <IsDefault>true</IsDefault>
+            <AcceptHumans>true</AcceptHumans>
+            <AutoAcceptMember>true</AutoAcceptMember>
+            <EnableFriendlyFire>true</EnableFriendlyFire>
+            <StartingBalance>0</StartingBalance>
+            <DiscoveredByDefault>true</DiscoveredByDefault>
+            <FactionIcon>Textures\FactionLogo\Builders\BuilderIcon_10.dds</FactionIcon>
+        </Faction>
+    </Factions>
+</Definitions>

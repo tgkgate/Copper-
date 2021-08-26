@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TitaniumArmorLightCubeGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+            <DisplayName>Light Titanium Armor Block</DisplayName>
+            <Description>Description_LightArmor</Description>
+            <Blocks>
+                <!--Large Grid -->
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorCornerInv" />
+                <!-- Small Grid -->
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorCornerInv" />
+            </Blocks>
+        </BlockVariantGroup>
+    </BlockVariantGroups>
+</Definitions>
