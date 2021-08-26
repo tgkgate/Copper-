@@ -1,0 +1,33 @@
+	Copper+ Mod for Space Engineers
+
+    @Author:    Gate
+    @Date:      2021/08/26
+
+    @Version:   1.3
+
+    @Change-Log:
+    			v1.3:		Added Titanium Armor Blocks.  As I'm NOT a modeller,  you get
+    						the basic armor block textures,  but the icons have been updated : p
+    						Titanium armor is about 80% of the weight of Light Armor,  but twice
+    						the durability.  (comments for balace welcome)
+                v1.2:		Removed Procedural Ore Generation due to (demand) friends comments.
+                v1.0:		Initial Release
+
+
+
+    (C)opyright 2021 Gate
+    Some Rights Reserved.
+
+
+    Space Engineers is (C)opyright Keen Software House
+    https://www.spaceengineersgame.com/
+
+
+
+Want to contribute to this project?
+https://github.com/tgkgate/Copper-
+
+
+This mod adds Copper, Titanium, and Tungsten to all SE planets and moons for both base and dlc. (but not to modded planets!)
+It also adjusts just about every component to make use of it. Copper can be extracted from Stone (stone to basic ingots) at a minor rate.
+Tungsten and Titanium added to the advanced components to make them a bit harder and a bit more believable.
