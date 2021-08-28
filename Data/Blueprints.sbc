@@ -51,7 +51,7 @@
             <Prerequisites>
                 <Item Amount="1" TypeId="Ore" SubtypeId="Copper" />
             </Prerequisites>
-            <Result Amount="0.1" TypeId="Ingot" SubtypeId="Copper" />
+            <Result Amount="0.3" TypeId="Ingot" SubtypeId="Copper" />
             <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
         </Blueprint>
         <Blueprint>
