@@ -3,15 +3,19 @@
     @Author:    Gate
     @Date:      2021/08/26
 
-    @Version:   1.3
+    @Version:   1.4
 
     @Change-Log:
-                v1.3:		Added Titanium Armor Blocks.  As I'm NOT a modeller,  you get
-    				the basic armor block textures,  but the icons have been updated : p
-    				Titanium armor is about 80% of the weight of Light Armor,  but twice
-    				the durability.  (comments for balace welcome)
-                v1.2:		Removed Procedural Ore Generation due to (demand) friends comments.
-                v1.0:		Initial Release
+                v1.4:       Increased Cu refine rates to close [./issues/1]
+
+                v1.3:       Added Titanium Armor Blocks.  As I'm NOT a modeller,  you get
+                            the basic armor block textures,  but the icons have been updated : p
+                            Titanium armor is about 80% of the weight of Light Armor,  but twice
+                            the durability.  (comments for balace welcome)
+
+                v1.2:       Removed Procedural Ore Generation due to (demand) friends comments.
+
+                v1.0:       Initial Release
 
 
 
