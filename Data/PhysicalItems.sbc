@@ -70,7 +70,7 @@
             <Volume>0.37</Volume>
             <Model>Models\Components\Sphere.mwm</Model>
             <PhysicalMaterial>Stone</PhysicalMaterial>
-            <IconSymbol>Ti</IconSymbol>
+            <IconSymbol>W</IconSymbol>
             <MinimalPricePerUnit>200</MinimalPricePerUnit>
             <MinimumOfferAmount>1500</MinimumOfferAmount>
             <MaximumOfferAmount>15000</MaximumOfferAmount>
